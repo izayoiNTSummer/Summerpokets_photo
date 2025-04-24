@@ -5,19 +5,21 @@ import RegisterForm from './RegisterForm';
 //import PhotoSidebar from './PhotoSidebar';
 import PhotoPairList from './PhotoPairList';
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000";
+
 function App() {
   const [currentUser, setCurrentUser ] = useState(null);
   const [error, setError ] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:8000/me', { credentials: 'include' })
+    fetch(`${API_URL}/me`, { credentials: 'include' })
     .then(res => res.ok ? res.json() : Promise.reject())
     .then(data => setCurrentUser(data.username))
     .catch(() => setCurrentUser(null));
   },[]);
 
   const handleLogout = () => {
-    fetch('http://localhost:8000/logout', { method: 'POST', credentials: 'include' })
+    fetch(`${API_URL}/logout`, { method: 'POST', credentials: 'include' })
     .then(() => setCurrentUser(null));
   };
 
