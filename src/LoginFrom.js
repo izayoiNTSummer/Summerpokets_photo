@@ -1,6 +1,8 @@
 import React, { useState} from 'react';
 import './LoginForm.css';
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000";
+
 function LoginForm({ onLogin, setError }) {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
