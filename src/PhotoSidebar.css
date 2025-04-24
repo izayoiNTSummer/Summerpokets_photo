@@ -1,0 +1,39 @@
+.photo-sidebar {
+    width: 45%;
+    background: #f5f5f5;
+    padding: 16px 8px;
+    overflow-y: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.photo-category {
+    margin-bottom: 32px;
+    width: 100%;
+    color: #7d797983;
+}
+
+.photo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.photo-thumb {
+    width: 95%;
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
