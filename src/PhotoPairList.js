@@ -23,7 +23,6 @@ function PhotoPairList() {
         .catch(err => {
             // エラー表示
             console.error(err);
-            setError('画像一覧の取得に失敗しました');
         });
     }, [refresh]);
 
