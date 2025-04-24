@@ -8,7 +8,7 @@ function LoginForm({ onLogin, setError }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         setError('');
-        fetch('http://localhost:8000/login', {
+        fetch(`${API_URL}/login`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
