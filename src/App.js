@@ -30,6 +30,9 @@ function App() {
           <div className='main-layout'>
             <PhotoPairList />
           </div>
+          <div className='source'>
+            <p>出典：SummerPokets<link href='https://key.visualarts.gr.jp/summer/'>SummerPokets</link></p>
+          </div>
           <button onClick={handleLogout}>ログアウト</button>
         </>
       ) : (
