@@ -12,8 +12,19 @@ function PhotoPairList() {
     // ユーザーのアップロード画像情報取得
     useEffect(() => {
         fetch(`${API_URL}/user_photos`, { credentials: 'include' })
-          .then(res => res.json())
-          .then(data => setUserPhotos(data));
+          .then(res => {
+            if (!res.ok) throw new Error('画像一覧の取得に失敗');
+            return res.json();
+    })
+          .then(data =>{
+            if (!Array.isArray(data)) throw new Error('画像データが配列ではありません');
+            setUserPhotos(data)
+        })
+        .catch(err => {
+            // エラー表示
+            console.error(err);
+            setError('画像一覧の取得に失敗しました');
+        });
     }, [refresh]);
 
     // base_image_name→uploaded_image_pathのマップを作る
