@@ -63,7 +63,7 @@ function PhotoPairList() {
                                 <div className='photo-pair-images'>
                                     {/* 左：既存画像 */}
                                     <img
-                                    src={`/photos/${cat.category}/${baseImg.filename}`}
+                                    src={process.env.PUBLIC_URL + `/photos/${cat.category}/${baseImg.filename}`}
                                     alt={baseImg.title}
                                     className='photo-base-img'
                                     />
