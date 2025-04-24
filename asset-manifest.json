@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/izayoiNTSummer/Summerpokets_photo/static/css/main.f0444f40.css",
-    "main.js": "/izayoiNTSummer/Summerpokets_photo/static/js/main.938c6603.js",
-    "static/js/453.9e55e542.chunk.js": "/izayoiNTSummer/Summerpokets_photo/static/js/453.9e55e542.chunk.js",
-    "index.html": "/izayoiNTSummer/Summerpokets_photo/index.html",
-    "main.f0444f40.css.map": "/izayoiNTSummer/Summerpokets_photo/static/css/main.f0444f40.css.map",
-    "main.938c6603.js.map": "/izayoiNTSummer/Summerpokets_photo/static/js/main.938c6603.js.map",
-    "453.9e55e542.chunk.js.map": "/izayoiNTSummer/Summerpokets_photo/static/js/453.9e55e542.chunk.js.map"
+    "main.css": "/Summerpokets_photo/static/css/main.f0444f40.css",
+    "main.js": "/Summerpokets_photo/static/js/main.0d4192db.js",
+    "static/js/453.9e55e542.chunk.js": "/Summerpokets_photo/static/js/453.9e55e542.chunk.js",
+    "index.html": "/Summerpokets_photo/index.html",
+    "main.f0444f40.css.map": "/Summerpokets_photo/static/css/main.f0444f40.css.map",
+    "main.0d4192db.js.map": "/Summerpokets_photo/static/js/main.0d4192db.js.map",
+    "453.9e55e542.chunk.js.map": "/Summerpokets_photo/static/js/453.9e55e542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0444f40.css",
-    "static/js/main.938c6603.js"
+    "static/js/main.0d4192db.js"
   ]
 }
