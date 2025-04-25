@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Summerpokets_photo/static/css/main.f0444f40.css",
-    "main.js": "/Summerpokets_photo/static/js/main.2c40dfe9.js",
+    "main.js": "/Summerpokets_photo/static/js/main.9d2ccb53.js",
     "static/js/453.9e55e542.chunk.js": "/Summerpokets_photo/static/js/453.9e55e542.chunk.js",
     "index.html": "/Summerpokets_photo/index.html",
     "main.f0444f40.css.map": "/Summerpokets_photo/static/css/main.f0444f40.css.map",
-    "main.2c40dfe9.js.map": "/Summerpokets_photo/static/js/main.2c40dfe9.js.map",
+    "main.9d2ccb53.js.map": "/Summerpokets_photo/static/js/main.9d2ccb53.js.map",
     "453.9e55e542.chunk.js.map": "/Summerpokets_photo/static/js/453.9e55e542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0444f40.css",
-    "static/js/main.2c40dfe9.js"
+    "static/js/main.9d2ccb53.js"
   ]
 }
