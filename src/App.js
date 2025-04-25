@@ -31,7 +31,7 @@ function App() {
             <PhotoPairList />
           </div>
           <div className='source'>
-            <p>出典：SummerPokets<link href='https://key.visualarts.gr.jp/summer/'>SummerPokets</link></p>
+            <p>出典：SummerPokets<a href='https://key.visualarts.gr.jp/summer/'>SummerPokets</a></p>
           </div>
           <button onClick={handleLogout}>ログアウト</button>
         </>
